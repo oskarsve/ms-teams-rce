@@ -35,7 +35,7 @@ Thank you, <br>
 * attacker sends or edits an existing message, which looks completely normal to victim
 * victim executes code upon looking at the message
 
-‼️ &nbsp; **That's it. There is no further interaction from vicim. Now your company's internal network, personal documents, O365 documents/mail/notes, secret chats are fully compromised. Think about it. One message, one channel, no interaction. Everyone gets exploited.** 
+‼️ &nbsp; **That's it. There is no further interaction from the victim. Now your company's internal network, personal documents, O365 documents/mail/notes, secret chats are fully compromised. Think about it. One message, one channel, no interaction. Everyone gets exploited.** 
 
 So let's expand on that. What if the recipients then automatically post it in their teams, channels? Everybody gets exploited. Did you know you can be a guest in other organisations? Probably your organisation already has several guests. They most likely are in their own organisations and those orgs probably have guests, which are in their own organisations, which are ... 🙂 &nbsp; Yes, it could be made into a worm, which spreads within the Microsoft Teams network, at least within an organisation.
 
