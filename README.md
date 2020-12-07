@@ -8,11 +8,11 @@
 * ["In fiscal year 2020, Microsoft Corporation reported a net income of over 44.28 billion U.S. dollars"](https://www.microsoft.com/investor/reports/ar20/index.html)
 
 **TL;DR**:
-* Reported critical remote code execution bugs in Microsoft Teams
-* Microsoft rates them "Important, Spoofing" - one of the lowest in-scope ratings possible
-* A new joke is born
+* Reported critical remote code execution bugs in Microsoft Teams, August 31st, 2020
+* Microsoft rates them "Important, Spoofing" - one of the lowest in-scope ratings possible, September 30, 2020
+* A new joke is born, immediately
 * Microsoft refuses to discuss impact in detail, final decision made on November 19th, 2020
-* "As for the CVE part, it's currently Microsoft's policy to not issue CVEs on products that automatically updates without user's interaction."
+* "As for the CVE part, it's currently Microsoft's policy to not issue CVEs on products that automatically updates without user's interaction.", November 30, 2020
 * The bugs have been fixed since the end of October, 2020
 
 ## Microsoft Security Response Center rating - "Important, Spoofing"
