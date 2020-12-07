@@ -2,7 +2,7 @@
 
 ## TL;DR / Context
 
-* ["During an earnings call with investors today, Microsoft CEO Satya Nadella reveled Microsoft Teams now has 115 million daily active users" 2020-10-27](https://www.theverge.com/2020/10/27/21537286/microsoft-teams-115-million-daily-active-users-stats)
+* ["During an earnings call with investors today, Microsoft CEO Satya Nadella revealed Microsoft Teams now has 115 million daily active users" 2020-10-27](https://www.theverge.com/2020/10/27/21537286/microsoft-teams-115-million-daily-active-users-stats)
 * ["Security and Microsoft Teams"](https://docs.microsoft.com/en-us/microsoftteams/teams-security-guide)
 * ["Our commitment to privacy and security in Microsoft Teams"](https://www.microsoft.com/en-us/microsoft-365/blog/2020/04/06/microsofts-commitment-privacy-security-microsoft-teams/)
 * ["In fiscal year 2020, Microsoft Corporation reported a net income of over 44.28 billion U.S. dollars"](https://www.microsoft.com/investor/reports/ar20/index.html)
