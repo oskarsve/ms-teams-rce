@@ -12,7 +12,7 @@
 * Microsoft rates them "Important, Spoofing" - one of the lowest in-scope ratings possible
 * A new joke is born
 * Microsoft refuses to discuss impact in detail, final decision made on November 19th, 2020
-* Microsoft "does not give CVEs since Microsoft Teams auto-updates"
+* "As for the CVE part, it's currently Microsoft's policy to not issue CVEs on products that automatically updates without user's interaction."
 * The bugs have been fixed since the end of October, 2020
 
 ## Microsoft Security Response Center rating - "Important, Spoofing"
