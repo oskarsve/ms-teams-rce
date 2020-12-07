@@ -11,9 +11,9 @@
 * Reported critical remote code execution bugs in Microsoft Teams
 * Microsoft rates them "Important, Spoofing" - one of the lowest in-scope ratings possible
 * A new joke is born
-* Microsoft refuses to discuss impact in detail 
+* Microsoft refuses to discuss impact in detail, final decision made on November 19th, 2020
 * Microsoft "does not give CVEs since Microsoft Teams auto-updates"
-* The bugs have been fixed now
+* The bugs have been fixed since the end of October, 2020
 
 ## Microsoft Security Response Center rating - "Important, Spoofing"
 
