@@ -268,6 +268,17 @@ Content-Length: 1174
 
 **no user interaction is required simply visiting a chat will execute arbitrary code.**
 
+# Sending a GIF on Microsoft Team:
+
+![Workflow](https://1.bp.blogspot.com/-AigkCeCMz6U/XqfD0n_KMrI/AAAAAAAAMHo/JxDAToYNsjYns-_2cs9YVBOzBvaGnMnJgCLcBGAsYHQ/s1600/vulnerability-hijacking-microsoft-teams-account-gif-1.jpg)
+
+The vulnerability resides in the Microsoft Teams processes authentication access tokens and passes them to resources containing images. If an attacker manages to create a GIF file or URL, Teams will send the authentication token to the attacker’s server while processing it. 
+
+To make the attack successful via sending a link, the victim should click on the link but in the case of GIF image, the attack can be successful if the user views the image in Teams chat. Once the image is viewed or URL clicked, the attacker receives the token. 
+
+Using this token, the attacker can hijack the victim’s Teams account by exploiting its API interfaces, and can access victim’s data on Teams, send messages, create and delete groups on the victim’s behalf, or modify a group’s permissions. 
+
+Attackers can move further after receiving the tokens can perform many malicious activities. After hijacking the account attacker can access sensitive data, login credentials, business strategies/plans, and meeting schedules. Furthermore, it can also cause financial damage, data leakage, install malware, lure an employee to reset the password by impersonating as a team member.
 
 # Supporting materials/references:
 
